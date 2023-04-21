@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reg.css">
+    <title>Document</title>
+</head>
+<body>
+<html>
+<head>
+<title></title>
+
+</head>
+ 
+<body>
+<form action="http://localhost:3000/submit" method="post">
+
+
+ 
+<table align="center" cellpadding = "10">
+ 
+<!----- First Name ---------------------------------------------------------->
+<tr>
+<td>FIRST NAME</td>
+<td><input type="text" name="first_name" maxlength="30" id="first_name"/>
+</td>
+</tr>
+ 
+<!----- Last Name ---------------------------------------------------------->
+<tr>
+<td>LAST NAME</td>
+<td><input type="text" name="last_name" maxlength="30" id="last_name"/>
+</td>
+</tr>
+ 
+ 
+<!----- Email Id ---------------------------------------------------------->
+<tr>
+<td>EMAIL ID</td>
+<td><input type="text" name="email" maxlength="100" id="email"/></td>
+</tr>
+ 
+<!----- Mobile Number ---------------------------------------------------------->
+<tr>
+<td>MOBILE NO.</td>
+<td>
+<input type="text" name="mobile_number" maxlength="10" id="mobile_number"/>
+</td>
+</tr>
+ 
+<!----- Gender ----------------------------------------------------------->
+<tr>
+<td>GENDER</td>
+<td>
+Male <input type="radio" name="gender" value="Male" id="gender"/>
+Female <input type="radio" name="gender" value="Female" id="gender"/>
+</td>
+</tr>
+ 
+<!----- Address ---------------------------------------------------------->
+<tr>
+<td>ADDRESS <br /><br /><br /></td>
+<td><textarea name="address" rows="4" cols="30" id="address"></textarea></td>
+</tr>
+ 
+<!----- City ---------------------------------------------------------->
+<tr>
+<td>CITY</td>
+<td><input type="text" name="city" maxlength="30" id="city" />
+
+</td>
+</tr>
+ 
+<!----- Pin Code ---------------------------------------------------------->
+<tr>
+<td>PIN CODE</td>
+<td><input type="text" name="pin_code" maxlength="6" id="pin_code" />
+</td>
+</tr>
+ 
+<!----- State ---------------------------------------------------------->
+<tr>
+<td>STATE</td>
+<td><input type="text" name="state" maxlength="30" id="state" />
+ 
+</td>
+</tr>
+ 
+<!----- Country ---------------------------------------------------------->
+<tr>
+<td>COUNTRY</td>
+<td><input type="text" name="country" value="India" readonly="readonly" id="country" /></td>
+</tr>
+ 
+<!----- Blood Type ---------------------------------------------------------->
+ 
+<tr>
+    <td>TYPE</td>
+     
+    <td>
+        <select name="blood_type" id="blood_type">
+            <option value="TYPE">TYPE:</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB">AB+</option>
+            <option value="AB">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+    </td>
+    </tr>
+
+    <tr>
+        <td>
+            Age: 
+        </td>
+        <td> <input type="number" name="age" maxlength="30" id="age"></td>
+
+    </tr>
+ 
+
+<!----- Submit and Reset ------------------------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+ 
+</form>
+ 
+</body>
+</html>
+</body>

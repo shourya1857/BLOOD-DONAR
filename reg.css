@@ -1,0 +1,29 @@
+h3{
+    font-family: Calibri; 
+    font-size: 25pt;         
+    font-style: normal; 
+    font-weight: bold; 
+    color:SlateBlue;
+    text-align: center; 
+    text-decoration: underline
+  }
+  
+  table{
+    font-family: Calibri;
+    padding: 2px; 
+    color:rgb(0, 0, 0); 
+    font-size: 9pt; 
+    font-style: normal;
+    font-weight:normal;
+    /* text-align:center;  */
+    /* background-color: cyan;  */
+    border-collapse: collapse; 
+    border: none ;
+  }
+  table.inner{
+    border: 0px
+  }
+  .reg{
+    box-sizing: content-box;
+  }
+  
